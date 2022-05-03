@@ -65,6 +65,4 @@ public class SessionManager {
                 .findAny()
                 .orElse(null);
     }
-
-
 }
