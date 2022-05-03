@@ -42,6 +42,7 @@ public class LoginController {
 
         //로그인 성공 처리
         // 쿠키 생성하고, 이걸 response 에 담는다.
+
         Cookie idCookie = new Cookie("memberId", String.valueOf(loginMember.getId()));
         response.addCookie(idCookie);
 
